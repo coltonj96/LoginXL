@@ -1,0 +1,45 @@
+#LoginXL v 5.8 Configuration
+settings:
+  only-first-join: false
+  main-world-name: world
+  debug: false
+  update-check: true
+  item-on-first-join: true
+  first-join-spawning: true
+  show-first-join-message: true
+  show-first-join-motd: true
+  show-first-join-smoke: true
+  number-on-first-join: true
+  commands-on-first-join: true
+  show-join-message: true
+  show-leave-message: true
+  show-kick-message: true
+  show-death-message: true
+  show-respawn-message: true
+  show-shutdown-message: true
+  zoom-up: true
+  zap-cmd: true
+  bam: true
+  locate: true
+  troll: true
+  zoom-x-y-z: true
+  tele: true
+  xp: true
+  craft: true
+  get-gamemode: true
+  ride: true
+messages:
+  first-join-message: "&d%name% Has Joined This Server For The First Time!"
+  join-message: "&e%name% Has Returned To This Server!"
+  leave-message: "&e%name% Has Left This Server!"
+  kick-message: "&e%name% Has Been Kicked From This Server!"
+  number-message: "&d%number% Different Players Have Joined This Server!"
+  death-message: "&d%name% Has Died From %deathcause% At The Location Of %deathlocation% !"
+  respawn-message: "&d%name% Has Respawned!"
+  shutdown-message: "&dThe Server Is Shutting Down!"
+items:
+    - 5.32.0
+motd:
+    - '&bWelcome To My Server, &6%name%&b!'
+    - '&4This message can be customized in the LoginXL config!'
+commands: []

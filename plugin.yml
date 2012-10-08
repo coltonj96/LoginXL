@@ -1,0 +1,11 @@
+name: LoginXL
+main: com.aim.coltonjgriswold.loginxl.Loginxl
+version: 8.0
+author: coltonj96
+dev-url: http://dev.bukkit.org/server-mods/My-Little-Plugin/
+
+commands:
+  loginxl:
+    description: Main Command
+    aliases: [logxl, lxl, lox, ll, lol, xl]
+    usage: /loginxl <reload|spawn|setspawn|motd|zoomup|zoom (x y z)|zap (player)|bam (player)|troll (player)|locate (player)|tp <player> (player)|xp (player)|craft|ggm (player)|ride>
